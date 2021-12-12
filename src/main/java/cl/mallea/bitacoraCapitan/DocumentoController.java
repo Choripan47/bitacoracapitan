@@ -9,6 +9,6 @@ public class DocumentoController {
 
     @GetMapping(value = "/", produces = "application/json")
     public ResponseEntity<?> getDocument(){
-        return ResponseEntity.ok("Hola"); //test
+        return ResponseEntity.ok("Hola"); //test x2
     }
 }
